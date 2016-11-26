@@ -1,0 +1,390 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 26, 16, 8:47:34 AM
+    Author     : Glenn Rible
+*/
+@font-face {
+    font-family: 'GothamThin';
+    src: url('../fonts/gotham-family/Gotham-Thin.otf');
+}
+
+@font-face {
+    font-family: 'GothamLight';
+    src: url('../fonts/gotham-family/Gotham-Light.otf');
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../fonts/gotham-family/Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../fonts/gotham-family/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('../fonts/gotham-family/Gotham-Medium.otf');
+}
+
+
+body {
+    font-family: "GothamThin";
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "GothamThin";
+    color: #fff;
+}
+
+.container h2 {
+    font-family: "GothamLight";
+}
+
+.container h3 {
+    font-family: "GothamMedium";
+}
+
+.logo-img {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.logo-txt {
+    font-family: "GothamBold";
+    color: #00276a;
+    font-size: 15px;
+    position: absolute;
+    top: 34px;
+    padding-left: 15px;
+}
+
+.content-body {
+    background: url("../images/content-background.png") #032c6c center center no-repeat fixed;
+    color: #fff;
+}
+
+.blue {
+    color: #269abc;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mtb30 {
+    margin: 30px 0;
+}
+
+.mtb15 {
+    margin: 15px 0;
+}
+
+.ptb20 {
+    padding: 20px 0;
+}
+
+select, input {
+    font-family: "GothamMedium";
+    color: #a6aaad;
+}
+
+.form-group {
+    font-family: "GothamMedium";
+}
+
+.custom-input {
+    font-family: "GothamMedium";
+    background: #fff;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.custom-input .input-group-addon {
+    font-family: "GothamBold";
+    background: #d68d00;
+    border: none;
+    border-radius: 100%;
+    color: #fff;
+    padding: 10px 14px;
+}
+
+.third-category {
+    display: inline-block;
+    font-family: "GothamBold";
+    background: #d68d00;
+    border: none;
+    border-radius: 100%;
+    color: #fff;
+    padding: 5px 10px 3px 10px;
+    text-align: center;
+}
+
+.custom-input .form-control{
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+.cant-find a {
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+}
+
+.cant-find a:hover{
+    text-decoration: none;
+}
+
+.selectpicker {
+    color: #a6aaad;
+}
+
+.clients-review-container {
+    margin-top: -30px;
+}
+
+.lawyer-info-container {
+    border-bottom: 1px solid #4f8ebc;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.lawyer-info-container:last-child{
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+
+.review-container {
+}
+
+.review-container .header {
+    font-family: "GothamBold";
+}
+
+.review-container .header .star-container {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.review-container .header .star{
+    color: #d68d00;
+}
+
+.review-container .content p{
+    font-style: italic;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.review-container .review a {
+    font-family: "GothamBold";
+    font-size: 12px;
+    color: #e7c44b;
+}
+
+.review-lawyer-info .lawyer-name {
+    font-family: "GothamBold";
+}
+
+.review-lawyer-info .lawyer-image img{
+    display: inline-block;
+}
+
+.review-lawyer-info .lawyer-address {
+    font-size: 13px;
+}
+
+.clients-review-header {
+    padding-bottom: 20px;
+}
+
+.footer-container {
+    margin: 30px 0;
+}
+
+.footer-container .footer {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 35px;
+}
+
+.footer-copyright-container .footer-links{
+    color: #929ba4;
+    font-size: 13px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.footer-copyright-container .footer-links .bullets{
+    padding: 0 15px;
+}
+
+.footer-copyright-container .footer-copyright-text{
+    margin-top: 40px;
+    font-size: 12px;
+    color: #929ba4;
+    font-weight: bold;
+}
+
+.footer .logo-txt {
+    font-family: "GothamBold";
+    color: #00276a;
+    padding-top: 10px;
+    font-size: 13px;
+    display: block;
+}
+
+.search-result-zip-code {
+    display: none;
+    position: absolute;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    top: 54px;
+    padding: 10px 25px;
+    font-family: "GothamThin";
+}
+
+.find-a-lawyer-button {
+    font-family: "GothamBold";
+    background: #001e5a;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 35px;
+    margin: 25px 0px 10px 0px;
+}
+
+.find-a-lawyer-button:hover{
+    background: #001e5a;
+    color: #fff;
+}
+
+.modal-body {
+    font-family: "GothamBook";
+    padding: 15px 35px;
+}
+
+.modal-body h4 {
+    font-family: "GothamBook";
+    color: #000;
+    display: inline-block;
+}
+
+.modal-body .checkbox {
+    margin-bottom: 20px;
+}
+
+.category-listing ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.category-listing ul li{
+    line-height: 30px;
+}
+
+.category-listing ul li a {
+    font-size: 12px;
+}
+
+.category-listing ul li a:hover{
+    text-decoration: none;
+}
+
+.modal-title {
+    font-family: "GothamBook";
+    color: #000;
+}
+
+.rating {
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.rating .rating-users {
+    display: inline-block;
+}
+
+.rating .rating-stars {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.rating .rating-stars .star-container .star, 
+.modal-body .odd .star-container .star,
+.modal-body .even .star-container .star{
+    color: #d69024;
+    font-size: 20px;
+}
+
+.rating .rating-stars .star-container .star:last-child, .modal-body .odd .star-container .star:last-child{
+    color: #666;
+}
+
+.modal-body .odd .star-container .star,
+.modal-body .even .star-container .star{
+    font-size: 15px;
+}
+
+.overall-header-container {
+    padding-bottom: 5px;
+}
+
+.overall-header {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.star-review-container {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.star-review-container .star-container .star{
+    color: #d69024;
+}
+
+.star-review-container .star-review {
+    display: inline-block;
+}
+
+.star-review-container .reviewer {
+    display: inline-block;
+}
+
+.rating-hr {
+    margin-top: 0px;
+    border-top: 1px solid #000;
+}
+
+.client-review-footer .btn-default, .client-review-footer .btn-default:hover{
+    color: #0000ff;
+    font-family: "GothamBook";
+    background-color: transparent;
+    border: none;
+}
+
+@media (max-width:991px) {
+    .clients-review-container {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:607px) {
+    .logo-img {
+        display: block;
+    }
+    .logo-txt {
+        position: relative;
+        top: 0;
+    }
+}
